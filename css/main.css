@@ -162,3 +162,41 @@ a:hover { color: var(--primary-color); }
     transform: translateY(-7px);
   }
 }
+
+
+/*
+* Steps Section
+*/
+
+
+.steps {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+ 
+.steps__section-thumbnail {
+  height: 240px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.steps__content-width {
+  max-width: 456px;
+  margin: 0 auto;
+}
+
+.steps--background {
+  background-color: #fef8f9;
+}
+
+@media (min-width: 544px) {
+  .steps {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .steps__section-thumbnail {
+    height: auto;
+  }
+} 
